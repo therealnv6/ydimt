@@ -11,3 +11,8 @@ yew-router = "0.16.0"
 gloo-net = "0.2.4"
 gloo-utils = "0.1.5"
 pulldown-cmark = { version = "0.9.2" }
+
+[profile.release]
+lto = true
+panic = 'abort'
+opt-level = 'z'
