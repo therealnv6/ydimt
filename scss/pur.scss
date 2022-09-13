@@ -1,0 +1,14 @@
+$color-force: #f7768e;
+$color-blossom: lighten($color-force, 20%);
+$color-fade: $color-force;
+
+$color-bg: #24283b;
+$color-bg-alt: #1a1b26;
+
+$color-text: #a9b1d6;
+$font-size-base: 1.8rem;
+
+$font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+$font-family-heading: $font-family-base;
+
+@import "main";
